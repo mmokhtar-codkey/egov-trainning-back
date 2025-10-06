@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CollegeAr.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CollegeAr.Api.Controllers.V1.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:CollegeAr.Api.Controllers.V1.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.ActionsController.#ctor(CollegeAr.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetAsync(System.Int32)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetPagedAsync(CollegeAr.Common.DTO.Base.BaseParam{CollegeAr.Common.DTO.Lookup.Action.Parameters.ActionFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Controllers.V1.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.CategoriesController.#ctor(CollegeAr.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetAsync(System.Int32)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetPagedAsync(CollegeAr.Common.DTO.Base.BaseParam{CollegeAr.Common.DTO.Lookup.Category.Parameters.CategoryFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Controllers.V2.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:CollegeAr.Api.Controllers.V2.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.#ctor(CollegeAr.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.GetEditAsync(System.Int32)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.AddAsync(CollegeAr.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.UpdateAsync(CollegeAr.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.ActionsController.DeleteSoftAsync(System.Int32)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.#ctor(CollegeAr.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.GetEditAsync(System.Int32)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.AddAsync(CollegeAr.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.UpdateAsync(CollegeAr.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Controllers.V2.Lookups.CategoriesController.DeleteSoftAsync(System.Int32)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Extensions.ConfigureDependencyExtension">
+            <summary>
+            Dependency Extensions
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Extensions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterDbContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterApiMonitoring(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.ConfigureAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configure Authentication With Identity Server
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterLocalization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register auto-mapper
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterAutoMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register auto-mapper
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterValidators(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Business Validators
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterIntegrationRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Integration Repositories
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterCustomRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Custom Repositories
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterNotificationMetadata(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Notification Meta Data
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterSecurityOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterApiVersioning(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Api Versioning
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterLowerCaseUrls(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Lower Case Urls
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterSwaggerConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger Config
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterCores(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Core Dependencies
+            </summary>
+        </member>
+        <member name="T:CollegeAr.Api.Extensions.ConfigureMiddlewareExtension">
+            <summary>
+            Pipeline Extensions
+            </summary>
+        </member>
+        <member name="T:CollegeAr.Api.Extensions.HttpClientDependencyExtension">
+            <summary>
+            Http Client Dependency Injection Extension And Security Options
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.HttpClientDependencyExtension.AddSecurityOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.HttpClientDependencyExtension.AddHttpClientsOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.HttpClientDependencyExtension.AddHttpClients(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Http Clients
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="T:CollegeAr.Api.Extensions.Swagger.Headers.LanguageHeader">
+            <summary>
+            Language Header
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.Swagger.Headers.LanguageHeader.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Apply
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:CollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions">
+            <summary>
+              Configures the Swagger generation options.
+            </summary>
+            <remarks>
+              This allows API versioning to define a Swagger document per API version after the <see
+              cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider"/> service has been resolved from the service container.
+            </remarks>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.#ctor(Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+              Initializes a new instance of the <see cref="T:CollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions"/> class.
+            </summary>
+            <param name="provider">
+              The <see cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.
+            </param>
+        </member>
+        <member name="M:CollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="T:CollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler">
+            <summary>
+            Http client handler that adds an authorization token to outgoing requests.
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler.#ctor(CollegeAr.Integration.TokenRepository.ITokenRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="tokenRepository"></param>
+        </member>
+        <member name="M:CollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>
+            Send Request After Appending Header
+            </summary>
+            <param name="request"></param>
+            <param name="ct"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.MiddleWares.ExceptionMiddleware">
+            <summary>
+            Exception Middleware
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handle
+            </summary>
+        </member>
+        <member name="T:CollegeAr.Api.MiddleWares.LanguageMiddleware">
+            <summary>
+            Language Middleware
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.LanguageMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.LanguageMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.MiddleWares.MiddlewareExtensions">
+            <summary>
+            Register Middleware
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.MiddlewareExtensions.ConfigureCustomMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:CollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware">
+            <summary>
+            Swagger Middleware
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsAuthorized(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="username"></param>
+             <param name="password"></param>
+             <returns></returns>
+        </member>
+        <member name="M:CollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsLocalRequest(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Program">
+            <summary>
+            Start Point
+            </summary>
+        </member>
+        <member name="P:CollegeAr.Api.Program.Configuration">
+            <summary>
+            Configuration Properties
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Program.Main(System.String[])">
+            <summary>
+            Kick Off
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CollegeAr.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Web Host Builder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeAr.Api.Startup">
+            <summary>
+            Start Up Class
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:CollegeAr.Api.Startup.Configuration">
+            <summary>
+            Public Configuration Property
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Dependencies
+            </summary>
+        </member>
+        <member name="M:CollegeAr.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Configure Pipeline
+            </summary>
+        </member>
+    </members>
+</doc>

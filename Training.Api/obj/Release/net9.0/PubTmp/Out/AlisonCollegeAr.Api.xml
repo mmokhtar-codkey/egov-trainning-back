@@ -1,0 +1,1455 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlisonCollegeAr.Api</name>
+    </assembly>
+    <members>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController">
+            <summary>
+            MenuItems Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController.#ctor(AlisonCollegeAr.Application.Services.Business.Menu.IMenuItemService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Menu.Menus.Parameters.MenuItemFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenusController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController">
+            <summary>
+            MenuType Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController.#ctor(AlisonCollegeAr.Application.Services.Business.MenuType.IMenuTypeService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Menu.MenuType.Parameters.MenuFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.MenuTypeController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Page.PagesController">
+            <summary>
+            Pages Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Page.PagesController.#ctor(AlisonCollegeAr.Application.Services.Business.Page.IPageService)">
+            <summary>
+            Constrauctor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Post.PostsController">
+            <summary>
+            Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Post.PostsController.#ctor(AlisonCollegeAr.Application.Services.Posts.IPostService)">
+            <summary>
+            Constrauctor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController">
+            <summary>
+            SectorDetails Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorDetails.ISectorDetailService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Sectors.SectorDetails.Parameters.SectorDetailFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorDetailsController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController">
+            <summary>
+            Sector Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorPosts.ISectorPostService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPosts.Parameters.SectorPostFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorPostsController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController">
+            <summary>
+            Sector Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorPrograms.ISectorProgramService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPrograms.Parameters.SectorProgramFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorProgramsController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController">
+            <summary>
+            Sector Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.Sector.ISectorService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Sectors.Sector.Parameters.SectorFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorsController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController">
+            <summary>
+            Sector Services Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorServices.ISectorServiceService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorServices.Parameters.SectorServiceFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorServicesController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController">
+            <summary>
+            Sector Units Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorUnits.ISectorUnitService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorUnits.Parameters.SectorUnitFilter})">
+            <summary>
+            Get All Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Sector.SectorUnitsController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ContactsController">
+            <summary>
+            Contacts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ContactsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Contact.IContactService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ContactsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ContactsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.HeroSectionsController">
+            <summary>
+            HeroSections Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.HeroSectionsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.HeroSection.IHeroSectionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.HeroSectionsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.HeroSectionsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.LogosController">
+            <summary>
+            SiteLogos Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.LogosController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Logos.ILogoService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.LogosController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.LogosController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.LogosController.GetDropDownAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ServicesController">
+            <summary>
+            Services Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ServicesController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Service.IServiceService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ServicesController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.ServicesController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.StatisticsController">
+            <summary>
+            Statistics Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.StatisticsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Statistics.IStatisticsService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.StatisticsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Business.Settings.StatisticsController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.ActionsController.#ctor(AlisonCollegeAr.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetAsync(System.Int32)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.ActionsController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Lookup.Action.Parameters.ActionFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V1.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.CategoriesController.#ctor(AlisonCollegeAr.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetAsync(System.Int32)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V1.Lookups.CategoriesController.GetPagedAsync(AlisonCollegeAr.Common.DTO.Base.BaseParam{AlisonCollegeAr.Common.DTO.Lookup.Category.Parameters.CategoryFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController">
+            <summary>
+            MenuItems Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.#ctor(AlisonCollegeAr.Application.Services.Business.Menu.IMenuItemService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Menus.Menu.AddMenuDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Menus.Menu.AddMenuDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuItemsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController">
+            <summary>
+            Menu Types Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.#ctor(AlisonCollegeAr.Application.Services.Business.MenuType.IMenuTypeService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Menu.MenuType.AddMenuTypeDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Menu.MenuType.AddMenuTypeDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.MenuTypeController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Page.PagesController">
+            <summary>
+            Pages Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Page.PagesController.#ctor(AlisonCollegeAr.Application.Services.Business.Page.IPageService)">
+            <summary>
+            Constrauctor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Post.PostsController">
+            <summary>
+            Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Post.PostsController.#ctor(AlisonCollegeAr.Application.Services.Posts.IPostService)">
+            <summary>
+            Constrauctor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController">
+            <summary>
+            SectorDetails Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorDetails.ISectorDetailService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorDetails.AddSectorDetailDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorDetails.AddSectorDetailDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorDetailsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController">
+            <summary>
+            Sector Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorPosts.ISectorPostService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPosts.AddSectorPostDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPosts.AddSectorPostDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorPostsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController">
+            <summary>
+            Sector Posts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorPrograms.ISectorProgramService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPrograms.AddSectorProgramDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorPrograms.AddSectorProgramDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorProgramsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController">
+            <summary>
+            Sector Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.Sector.ISectorService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.Sector.AddSectorDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.Sector.AddSectorDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController">
+            <summary>
+            Sector Services Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorServices.ISectorServiceService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorServices.AddSectorServiceDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorServices.AddSectorServiceDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorServicesController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController">
+            <summary>
+            Sector Units Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.#ctor(AlisonCollegeAr.Application.Services.Business.Sectors.SectorUnits.ISectorUnitService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorUnits.AddSectorUnitDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Sectors.SectorUnits.AddSectorUnitDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Sector.SectorUnitsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.ContactsController">
+            <summary>
+            Contacts Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.ContactsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Contact.IContactService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.HeroSectionsController">
+            <summary>
+            HeroSections Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.HeroSectionsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.HeroSection.IHeroSectionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController">
+            <summary>
+            Site logos Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Logos.ILogoService,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.AddAsync(AlisonCollegeAr.Common.DTO.Entities.Settings.Logo.AddLogoDto)">
+            <summary>
+            Add
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.UpdateAsync(AlisonCollegeAr.Common.DTO.Entities.Settings.Logo.AddLogoDto)">
+            <summary>
+            Update
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.logosController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.ServicesController">
+            <summary>
+            Services Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.ServicesController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Service.IServiceService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.StatisticsController">
+            <summary>
+            Statistics Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Business.Settings.StatisticsController.#ctor(AlisonCollegeAr.Application.Services.Business.Settings.Statistics.IStatisticsService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.#ctor(AlisonCollegeAr.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.GetEditAsync(System.Int32)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.AddAsync(AlisonCollegeAr.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.UpdateAsync(AlisonCollegeAr.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.ActionsController.DeleteSoftAsync(System.Int32)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.#ctor(AlisonCollegeAr.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.GetEditAsync(System.Int32)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.AddAsync(AlisonCollegeAr.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.UpdateAsync(AlisonCollegeAr.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Controllers.V2.Lookups.CategoriesController.DeleteSoftAsync(System.Int32)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension">
+            <summary>
+            Dependency Extensions
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Extensions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterDbContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterApiMonitoring(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.ConfigureAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configure Authentication With Identity Server
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterLocalization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register auto-mapper
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterAutoMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register auto-mapper
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterValidators(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Business Validators
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterIntegrationRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Integration Repositories
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterCustomRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Custom Repositories
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterNotificationMetadata(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Notification Meta Data
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterSecurityOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterApiVersioning(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Api Versioning
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterLowerCaseUrls(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Lower Case Urls
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterSwaggerConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger Config
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.ConfigureDependencyExtension.RegisterCores(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Core Dependencies
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Extensions.ConfigureMiddlewareExtension">
+            <summary>
+            Pipeline Extensions
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Extensions.HttpClientDependencyExtension">
+            <summary>
+            Http Client Dependency Injection Extension And Security Options
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.HttpClientDependencyExtension.AddSecurityOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.HttpClientDependencyExtension.AddHttpClientsOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.HttpClientDependencyExtension.AddHttpClients(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Http Clients
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Extensions.Swagger.Headers.LanguageHeader">
+            <summary>
+            Language Header
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.Swagger.Headers.LanguageHeader.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Apply
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions">
+            <summary>
+              Configures the Swagger generation options.
+            </summary>
+            <remarks>
+              This allows API versioning to define a Swagger document per API version after the <see
+              cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider"/> service has been resolved from the service container.
+            </remarks>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.#ctor(Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+              Initializes a new instance of the <see cref="T:AlisonCollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions"/> class.
+            </summary>
+            <param name="provider">
+              The <see cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.
+            </param>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler">
+            <summary>
+            Http client handler that adds an authorization token to outgoing requests.
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler.#ctor(AlisonCollegeAr.Integration.TokenRepository.ITokenRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="tokenRepository"></param>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.HttpDelegationHandlers.AuthorizedHttpClientHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>
+            Send Request After Appending Header
+            </summary>
+            <param name="request"></param>
+            <param name="ct"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.MiddleWares.ExceptionMiddleware">
+            <summary>
+            Exception Middleware
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handle
+            </summary>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.MiddleWares.LanguageMiddleware">
+            <summary>
+            Language Middleware
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.LanguageMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.LanguageMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.MiddleWares.MiddlewareExtensions">
+            <summary>
+            Register Middleware
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.MiddlewareExtensions.ConfigureCustomMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware">
+            <summary>
+            Swagger Middleware
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsAuthorized(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="username"></param>
+             <param name="password"></param>
+             <returns></returns>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsLocalRequest(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Program">
+            <summary>
+            Start Point
+            </summary>
+        </member>
+        <member name="P:AlisonCollegeAr.Api.Program.Configuration">
+            <summary>
+            Configuration Properties
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Program.Main(System.String[])">
+            <summary>
+            Kick Off
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Web Host Builder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlisonCollegeAr.Api.Startup">
+            <summary>
+            Start Up Class
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:AlisonCollegeAr.Api.Startup.Configuration">
+            <summary>
+            Public Configuration Property
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Dependencies
+            </summary>
+        </member>
+        <member name="M:AlisonCollegeAr.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Configure Pipeline
+            </summary>
+        </member>
+    </members>
+</doc>

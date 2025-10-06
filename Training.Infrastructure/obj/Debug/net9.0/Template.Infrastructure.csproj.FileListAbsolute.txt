@@ -1,0 +1,17 @@
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Infrastructure.deps.json
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Infrastructure.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Infrastructure.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Common.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Domain.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Common.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\bin\Debug\net9.0\Template.Domain.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.csproj.AssemblyReference.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.AssemblyInfoInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.AssemblyInfo.cs
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.355AE52C.Up2Date
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\refint\Template.Infrastructure.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\Template.Infrastructure.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\ref\Template.Infrastructure.dll

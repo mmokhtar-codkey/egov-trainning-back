@@ -1,0 +1,17 @@
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Integration.deps.json
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Integration.dll
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Integration.pdb
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Common.dll
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Domain.dll
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Common.pdb
+G:\Tattweer\Training\TrainingSystem\Training.Integration\bin\Debug\net9.0\Training.Domain.pdb
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.csproj.AssemblyReference.cache
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.GeneratedMSBuildEditorConfig.editorconfig
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.AssemblyInfoInputs.cache
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.AssemblyInfo.cs
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.csproj.CoreCompileInputs.cache
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.CB75CDFF.Up2Date
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.dll
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\refint\Training.Integration.dll
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\Training.Integration.pdb
+G:\Tattweer\Training\TrainingSystem\Training.Integration\obj\Debug\net9.0\ref\Training.Integration.dll

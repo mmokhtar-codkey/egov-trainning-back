@@ -1,0 +1,5 @@
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\University.Infrastructure.csproj.AssemblyReference.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\University.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\University.Infrastructure.AssemblyInfoInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\University.Infrastructure.AssemblyInfo.cs
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Infrastructure\obj\Debug\net9.0\University.Infrastructure.csproj.CoreCompileInputs.cache

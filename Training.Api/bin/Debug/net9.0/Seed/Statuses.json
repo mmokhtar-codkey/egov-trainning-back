@@ -1,0 +1,57 @@
+[
+  {
+    "Id": "684007ad-3a26-44a4-9125-f2e77e7741e3",
+    "NameAr": "جديدة",
+    "NameEn": "New",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "NEW",
+    "CssClass": "status-success"
+  },
+  {
+    "Id": "c4e662c9-0851-4017-aefe-b25260aced65",
+    "NameAr": "قيد الإنتظار",
+    "NameEn": "Pending",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "PENDING",
+    "CssClass": "status-info"
+  },
+  {
+    "Id": "656921d3-5b77-45e0-b2e2-b326c851a277",
+    "NameAr": "مغلقة",
+    "NameEn": "Closed",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "CLOSED",
+    "CssClass": "status-warning"
+  },
+  {
+    "Id": "84337e8d-25fc-440f-a46a-f9c87db66b35",
+    "NameAr": "مكتملة",
+    "NameEn": "Completed",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "COMPLETED",
+    "CssClass": "status-warning"
+  },
+  {
+    "Id": "9c186dea-0da4-4d26-8356-97c7bb110354",
+    "NameAr": "مرفوض",
+    "NameEn": "Rejected",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "REJECTED",
+    "CssClass": "status-warning"
+  }
+]

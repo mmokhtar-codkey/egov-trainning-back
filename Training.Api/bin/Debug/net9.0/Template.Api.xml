@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Template.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Template.Api.Authorization.HangFireAuthorizationFilter">
+            <summary>
+            Hang Fire
+            </summary>
+        </member>
+        <member name="M:Template.Api.Authorization.HangFireAuthorizationFilter.Authorize(Hangfire.Dashboard.DashboardContext)">
+            <summary>
+            Authorize
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Business.CompaniesController">
+            <summary>
+            Companies Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.#ctor(Template.Application.Services.Test.ICompanyService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Company.Parameters.CompanyFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.AddAsync(Template.Common.DTO.Company.AddCompanyDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.UpdateAsync(Template.Common.DTO.Company.AddCompanyDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.CompaniesController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Business.TestIntegrationController">
+            <summary>
+            Tests Integration Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestIntegrationController.#ctor(Template.Application.Services.TestIntegration.ITestIntegrationService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestIntegrationController.SendRequestToTransportationApiAsync">
+            <summary>
+            Generate Test token for integration with Transportation Api using the Template Web Api Client Credential Settings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Business.TestsController">
+            <summary>
+            Tests Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.#ctor(Template.Application.Services.Test.ITestService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.GetAsync(System.Guid)">
+            <summary>
+            Get By ID 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Test.Parameters.TestFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.AddAsync(Template.Common.DTO.Test.AddTestDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.UpdateAsync(Template.Common.DTO.Test.AddTestDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Business.TestsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.#ctor(Template.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Lookup.Action.Parameters.ActionFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.AddAsync(Template.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.UpdateAsync(Template.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.DeleteRangeAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.ActionsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.#ctor(Template.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.GetAsync(System.Guid)">
+            <summary>
+            Get By id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Lookup.Category.Parameters.CategoryFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.AddAsync(Template.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.UpdateAsync(Template.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.DeleteRangeAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.CategoriesController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V1.Lookups.EnumsController">
+            <summary>
+            Enums Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.EnumsController.#ctor(Template.Application.Services.Enum.IEnumService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V1.Lookups.EnumsController.GetAsync(System.Int32)">
+            <summary>
+            Get By id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V2.Base.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="T:Template.Api.Controllers.V2.Business.TestsController">
+            <summary>
+            Test Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.#ctor(Template.Application.Services.Test.ITestService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Test.Parameters.TestFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.AddAsync(Template.Common.DTO.Test.AddTestDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.UpdateAsync(Template.Common.DTO.Test.AddTestDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.DeleteRangeAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Business.TestsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V2.Lookups.ActionsController">
+            <summary>
+            Actions Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.#ctor(Template.Application.Services.Lookups.Action.IActionService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Lookup.Action.Parameters.ActionFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.AddAsync(Template.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.UpdateAsync(Template.Common.DTO.Lookup.Action.AddActionDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.DeleteRangeAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.ActionsController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Controllers.V2.Lookups.CategoriesController">
+            <summary>
+            Categories Controller
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.#ctor(Template.Application.Services.Lookups.Category.ICategoryService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.GetEditAsync(System.Guid)">
+            <summary>
+            Get For Edit 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.GetPagedAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Lookup.Category.Parameters.CategoryFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.GetDropDownAsync(Template.Common.DTO.Base.BaseParam{Template.Common.DTO.Base.SearchCriteriaFilter})">
+            <summary>
+            Get All Data paged For Drop Down
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.AddAsync(Template.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.UpdateAsync(Template.Common.DTO.Lookup.Category.AddCategoryDto)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            Soft Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.DeleteRangeAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Remove Range by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Controllers.V2.Lookups.CategoriesController.DeleteBulkAsync(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Remove Bulk by ids
+            </summary>
+            <param name="ids">PK</param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Extensions.ConfigureDependencyExtension">
+            <summary>
+            Dependency Extensions
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Extensions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterDbContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterApiMonitoring(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add DbContext
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.ConfigureAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configure Authentication With Identity Server
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterHttpClientHelpers(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Http Client Helpers
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterLocalization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register auto-mapper
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterValidators(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Business Validators
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterIntegrationRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Integration Repositories
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterCustomRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register Custom Repositories
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterSecurityOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register STS  (Secure Token Service) settings 
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterApiVersioning(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Api Versioning
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterLowerCaseUrls(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Lower Case Urls
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterSwaggerConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger Config
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.ConfigureDependencyExtension.RegisterCores(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register Core Dependencies
+            </summary>
+        </member>
+        <member name="T:Template.Api.Extensions.ConfigureMiddlewareExtension">
+            <summary>
+            Pipeline Extensions
+            </summary>
+        </member>
+        <member name="T:Template.Api.Extensions.Swagger.Headers.LanguageHeader">
+            <summary>
+            Language Header
+            </summary>
+        </member>
+        <member name="M:Template.Api.Extensions.Swagger.Headers.LanguageHeader.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Apply
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:Template.Api.Extensions.Swagger.Options.SwaggerConfigureOptions">
+            <summary>
+              Configures the Swagger generation options.
+            </summary>
+            <remarks>
+              This allows API versioning to define a Swagger document per API version after the <see
+              cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider"/> service has been resolved from the service container.
+            </remarks>
+        </member>
+        <member name="M:Template.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.#ctor(Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Template.Api.Extensions.Swagger.Options.SwaggerConfigureOptions"/> class.
+            </summary>
+            <param name="provider">
+              The <see cref="T:Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.
+            </param>
+        </member>
+        <member name="M:Template.Api.Extensions.Swagger.Options.SwaggerConfigureOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Template.Api.MiddleWares.ExceptionMiddleware">
+            <summary>
+            Exception Middleware
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handle
+            </summary>
+        </member>
+        <member name="T:Template.Api.MiddleWares.LanguageMiddleware">
+            <summary>
+            Language Middleware
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.LanguageMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:Template.Api.MiddleWares.LanguageMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.MiddleWares.MiddlewareExtensions">
+            <summary>
+            Register Middleware
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.MiddlewareExtensions.ConfigureCustomMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:Template.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware">
+            <summary>
+            Swagger Middleware
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Template.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsAuthorized(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="username"></param>
+             <param name="password"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Template.Api.MiddleWares.Swagger.SwaggerBasicAuthMiddleware.IsLocalRequest(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+        </member>
+        <member name="T:Template.Api.Program">
+            <summary>
+            Start Point
+            </summary>
+        </member>
+        <member name="P:Template.Api.Program.Configuration">
+            <summary>
+            Configuration Properties
+            </summary>
+        </member>
+        <member name="M:Template.Api.Program.Main(System.String[])">
+            <summary>
+            Kick Off
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Template.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Web Host Builder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Template.Api.Startup">
+            <summary>
+            Start Up Class
+            </summary>
+        </member>
+        <member name="M:Template.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Template.Api.Startup.Configuration">
+            <summary>
+            Public Configuration Property
+            </summary>
+        </member>
+        <member name="M:Template.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Dependencies
+            </summary>
+        </member>
+        <member name="M:Template.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Configure Pipeline
+            </summary>
+        </member>
+    </members>
+</doc>

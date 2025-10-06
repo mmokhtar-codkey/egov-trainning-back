@@ -1,0 +1,13 @@
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\bin\Release\net9.0\AlisonCollegeAr.Domain.deps.json
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\bin\Release\net9.0\AlisonCollegeAr.Domain.dll
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\bin\Release\net9.0\AlisonCollegeAr.Domain.pdb
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.csproj.AssemblyReference.cache
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.AssemblyInfoInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.AssemblyInfo.cs
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.csproj.CoreCompileInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.sourcelink.json
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.dll
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\refint\AlisonCollegeAr.Domain.dll
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\AlisonCollegeAr.Domain.pdb
+G:\Luxor-CodKey\Luxor-Projects\Backend\University\Colleges\AlisonCollegeAr\AlisonCollegeAr.Domain\obj\Release\net9.0\ref\AlisonCollegeAr.Domain.dll

@@ -1,0 +1,17 @@
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Integration.deps.json
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Integration.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Integration.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Common.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Domain.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Common.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\bin\Debug\net9.0\Template.Domain.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.csproj.AssemblyReference.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.GeneratedMSBuildEditorConfig.editorconfig
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.AssemblyInfoInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.AssemblyInfo.cs
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.csproj.CoreCompileInputs.cache
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.81271A6B.Up2Date
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\refint\Template.Integration.dll
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\Template.Integration.pdb
+G:\Luxor-CodKey\Luxor-Projects\WebApiTemplate\Template.Integration\obj\Debug\net9.0\ref\Template.Integration.dll
